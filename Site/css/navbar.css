@@ -1,0 +1,41 @@
+nav {
+    background-color: #ffff;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 5px gray;
+}
+
+nav a {
+    color: #2B6EB3;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 30px 15px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: #2B6EB3;
+    color: #ffff;
+}
+
+nav img {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    left: 34px;
+    top: 8px;
+}
+
+nav ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
