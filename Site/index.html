@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FIFTEEN</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/saudacao.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <title>FIFTEEN</title>
+
+</head>
     <body>
-        <header class="header">
+        <header>
             <nav>
-                    <a href="index.html"><img src="../Logo/FIFTEEN_1-removebg-preview.png" alt="Logotipo"></a>
-    
-                    <ul>
-                        <li><a href="areas">Áreas da Tecnologia</a></li>
-                        <li><a href="Contato">Contato</a></li>
-                        <li><a href="Login">Login</a></li>
-                    </ul>
+                <div class="menu_logo">
+                    <div>               
+                        <a href="index.html"><img src="../Logo/FIFTEEN_1-removebg-preview.png" alt="Logotipo"></a>
+                    </div> 
+                    <div class="menu"> 
+                            <a href="areas">Áreas da Tecnologia</a>
+                                <!--
+                                    <ul>
+                                        <li><a href="#">Programação</a></li>
+                                        <li><a href="#">Front-End</a></li>
+                                        <li><a href="#">Back-End</a></li>
+                                        <li><a href="#">Devops</a></li>
+                                        <li><a href="#">Data Science</a></li>
+                                        <li><a href="#">Mobile</a></li>
+                                        <li><a href="#">UX & UI</a></li>
+                                        <li><a href="#">Cyber Security</a></li>
+                                    </ul>
+                                -->    
+                    </div>
+                    <div class="search_box">
+                        <input type="text" class="search_txt" placeholder="Pesquisar">  
+                        <a class="search_btn" href="#"><img class="lupa" src="../images/lupa.svg" alt="Lupa" height="10" width="10"></a>
+                    </div>
+                </div> 
+                <div class="menu_button">   
+                    <button type="button" class="btn_login">Login</button>
+                    <button type="button" class="btn_cadastrar">Cadastrar</button>
+                </div>
             </nav>
         </header>
+        
         <section class="inicial">
-            <div>
+            <div class="txt_inicial">
                 <h1>Aprenda na Prática em 15 Minutos</h1>
                 <p>Aulas curtas com no máximo 15 minutos, indo direto ao ponto. 
                     Para maximizar o tempo  o instrutor deve ensinar de forma prática.</p>
@@ -35,8 +58,10 @@
             <div>
                
             </div>
-        </section>    
-        
-    </body>
+        </section>   
 
+    </body>
+    <footer>
+        <h3>Rodapé</h3>
+    </footer>
 </html>

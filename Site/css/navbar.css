@@ -4,38 +4,107 @@ nav {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 5px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+div.menu_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
 
 nav a {
     color: #2B6EB3;
-    float: right;
+    float: left;
     text-decoration: none;
-    display: block;
-    padding: 30px 15px;
-}
-
-nav a:hover{
-    transition: 0.5s;
-    background-color: #2B6EB3;
-    color: #ffff;
+    padding: 20px;
 }
 
 nav img {
-    position: absolute;
-    width: 200px;
-    height: 110px;
-    left: 34px;
-    top: 8px;
+    width: 75px;
+    height: 40px;
 }
 
-nav ul, li, p {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
+/* Barra de Pesquisa*/
 
-.header {
+.search_box{ 
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #2B6EB3;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.search_txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.search_btn{
+    width: 20px;
+    height: 1px;
+    border-radius: 2%;
+    background: #2B6EB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Botões de Login e Cadastro*/
+
+div.menu_button {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    margin: 15px;
     flex-wrap: wrap;
+}
+
+.btn_cadastrar {    
+    width: 80px;
+    height: 40px;
+    left: 1089px;
+    top: 13px;
+    background: #2B6EB3;    
+    border-color: #2B6EB3;
+    border-radius: 5px;
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_cadastrar:hover{
+    background-color: #ffff;
+    color: #2B6EB3;
+}
+
+.btn_login {    
+    width: 80px;
+    height: 40px;
+    left: 1089px;
+    top: 13px;
+    background: #fff;    
+    border: none;
+    border-radius: 5px;
+    color: #2B6EB3;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn_login:hover{
+    background-color: #2B6EB3;
+    color: #ffff;
 }
