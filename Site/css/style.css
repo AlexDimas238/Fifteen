@@ -1,30 +1,72 @@
-body{
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-.inicial {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 100px;
-}
-
-.txt_inicial{
-    text-align: left;
-    align-items: center;
-    padding: 20px;
-}
-
-.top_trending {
-    position: absolute;
+/* Define o tamanho da logo grande principal */
+.logo-section{
     width: 100%;
-    height: 200px;
-    background: #E6DFEC;
-    padding: 10px;
 }
 
+/* Define os espaçamentos do texto principal */
+.text-section{
+    padding: 20px;
+    margin-top: 50px;
+}
 
+/* Define a cor dos botões */
+.btn {
+    background-color: #1e88e5;
+    color: #fff;
+    border-color: #1e88e5;
+}
+
+/* Define a cor do hover dos botões */
+.btn:hover {
+    background-color: #fff;
+    color: #1e88e5;
+    border-color: #1e88e5;
+}
+
+/* Define a cor invertida dos botões */
+.inverted-btn{
+    background-color: #fff;
+    color: #1e88e5;
+    border-color: #1e88e5;
+    
+}
+
+/* Define a cor invertida do hover dos botões */
+.inverted-btn:hover{
+    background-color: #1e88e5;
+    color: #fff;
+}
+
+/* Define a cor dos cards */
+.card {
+    background-color: #fff;
+    border-color: #2B6EB3;
+}
+
+/* Define o background da seção das trilhas */
+.trilhas-section {
+    background-color: #fff;
+}
+
+/* Define o espaçamento do formulário da página cadastro */
+.form-container{
+    margin-top: 50px;
+}
+
+/* Define a cor gradiente do formulário da página cadastro */
+.form-gradient-blue {
+    padding: 20px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #2B6EB3, #58abf4) 1;
+}
+
+/*Define o espaçamento de todos os container*/
+.container{
+    margin-top: 20px;
+}
+
+/*Define o espaçamento do Rodapé*/
+
+#footer {
+    margin-top: 50px;
+}

@@ -1,0 +1,16 @@
+/* Define o espaçamento do formulário da página cadastro */
+.form-container{
+    margin-top: 50px;
+}
+
+/* Define a cor gradiente do formulário da página cadastro */
+.form-gradient-blue {
+    padding: 20px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #2B6EB3, #58abf4) 1;
+}
+
+/* Define a borda vermelha enquanto não for digitado o valor válido*/
+.input-validate:invalid{
+    border: 1px solid red;
+}
