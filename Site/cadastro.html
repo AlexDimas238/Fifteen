@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cadastro</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- logomarca -->
+
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo da minha empresa" class="logo-navbar"></a>
+      
+    <!-- Barra de Pesquisa-->  
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 search-input" type="text" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+
+    </nav>
+  </header>
+
+  <div class="form-container d-flex justify-content-center align-items-center">
+   
+    <form class="form-gradient-blue">
+        <h1>Cadastro</h1>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Sua senha" required>
+        </div>
+        <div class="form-group">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" class="form-control" id="whatsapp" placeholder="Seu WhatsApp" pattern="[0-9]{11}" required>
+        </div>
+        <div class="form-group">
+            <label for="linkedin">LinkedIn</label>
+            <input type="url" class="form-control" id="linkedin" placeholder="Link do seu perfil LinkedIn" required>
+        </div>
+        <div class="form-group">
+            <label for="foto">Foto</label>
+            <input type="file" class="form-control" id="foto" accept="image/*" required>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      <p>Ou</p>
+      <a href="#" class="btn btn-danger">
+        <i class="fab fa-google"></i> Cadastre-se com Google
+      </a>
+      <a href="#" class="btn btn-primary">
+        <i class="fab fa-facebook-f"></i> Cadastre-se com Facebook
+      </a>
+    </form>
+  </div>
+</body>
+</html>
+
+
+<!--O botão de cadastro envia os dados do formulário para o servidor para processamento.
+Os botões de Cadastro com Google e Facebook, você precisaria adicionar as respectivas bibliotecas do Google e Facebook e implementar a lógica de autenticação e cadastro, as bibliotecas possuem documentações e exemplos completos.
+
+Lembre-se que você também precisará configurar as contas de desenvolvedor do Google e Facebook para poder usar essas opções de cadastro. Além disso, você precisaria implementar lógicas de validação e tratamento de erros no formulário.-->
