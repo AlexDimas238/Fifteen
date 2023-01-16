@@ -1,34 +1,12 @@
-.logo-navbar{
-    width: 60px;
-    height: 60px;
-}
-
-.search-input{
-    width: 300px;
-    margin-right: 20px;
-}
-
+/* Define o tamanho da logo grande principal */
 .logo-section{
-    width: 150px;
+    width: 100%;
 }
+
+/* Define os espaçamentos do texto principal */
 .text-section{
     padding: 20px;
-}
-
-/* Define a cor da navbar */
-.navbar {
-    background-color: #2B6EB3;
-    box-shadow: 0 2px 5px gray;
-}
-
-/* Define a borda da barra de pesquisa */
-.search-input{
-    border-color: #2B6EB3;
-}
-
-/* Define a cor dos links na navbar */
-.navbar a {
-    color: #2B6EB3;
+    margin-top: 50px;
 }
 
 /* Define a cor dos botões */
@@ -59,11 +37,6 @@
     color: #fff;
 }
 
-.nav-item button {
-    margin-left: 10px; /* ou outro valor em pixels */
-}
-
-
 /* Define a cor dos cards */
 .card {
     background-color: #fff;
@@ -80,9 +53,20 @@
     margin-top: 50px;
 }
 
+/* Define a cor gradiente do formulário da página cadastro */
 .form-gradient-blue {
     padding: 20px;
     border: 3px solid transparent;
     border-image: linear-gradient(to right, #2B6EB3, #58abf4) 1;
 }
 
+/*Define o espaçamento de todos os container*/
+.container{
+    margin-top: 20px;
+}
+
+/*Define o espaçamento do Rodapé*/
+
+#footer {
+    margin-top: 50px;
+}
